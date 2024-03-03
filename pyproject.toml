@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "manu-sdk"
+version = "0.1.0"
+description = "SDK to automate and manage stuff for Manu"
+authors = ["Manpreet Shuann <manpreetshuann@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^6.2.4"
+pytest-mock = "*"
+poetry-bumpversion = "^0.3.2"
+flake8-pyproject = "^1.2.3"
+setuptools = "^69.1.1"
+
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+
+[tool.poetry_bumpversion.file."manu_sdk/version.py"]
+
+
+[[tool.poetry_bumpversion.replacements]]
+files = ["README.md"]
+search = 'version: {current_version}'
+replace = 'version: {new_version}'
+
+[tool.flake8]
+ignore = ['E501', 'E401', 'F403']
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
