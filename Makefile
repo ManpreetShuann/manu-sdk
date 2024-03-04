@@ -9,13 +9,14 @@ TEST := tests
 help:
 	@echo "Please use 'make <target>' where <target> is one of"
 	@echo ""
-	@echo "  install       install packages and prepare environment"
-	@echo "  clean         remove all temporary files"
-	@echo "  lint          run the code linters"
-	@echo "  type-check    type check the code with mypy"
-	@echo "  format        reformat code"
-	@echo "  test          run all the tests"
-	@echo "  build         run linters, tests and build package"
+	@echo "  install-poetry       install poetry if not already installed"
+	@echo "  install              install packages and prepare environment"
+	@echo "  clean                remove all temporary files"
+	@echo "  lint                 run the code linters"
+	@echo "  type-check           type check the code with mypy"
+	@echo "  format               reformat code"
+	@echo "  test                 run all the tests"
+	@echo "  build                run linters, tests and build package"
 	@echo ""
 	@echo "Check the Makefile to know exactly what each target is doing."
 
@@ -25,6 +26,15 @@ $(INSTALL_STAMP): pyproject.toml poetry.lock
 	@echo "poetry install --with=dev" 
 	$(POETRY) install --with=dev
 	touch $(INSTALL_STAMP)
+
+.PHONY: install-poetry
+install-poetry:  ## Installs poetry.
+ifeq ($(strip $(POETRY)),)
+	@echo "Installing Poetry..." 
+	python3 -m pip install --user pipx
+	python3 -m pipx ensurepath
+	pipx install poetry
+endif
 
 .PHONY: clean
 clean:
