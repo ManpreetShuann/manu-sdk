@@ -2,4 +2,4 @@ import manu_sdk
 
 
 def test_helloworld():
-    assert manu_sdk.hello.hello_world() == 'Hello World!'
+    assert manu_sdk.example.hello_world() == "Hello World!"
