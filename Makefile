@@ -30,7 +30,7 @@ $(INSTALL_STAMP): pyproject.toml poetry.lock
 clean:
 	@echo "Cleaning..." 
 	find . -type d -name "__pycache__" | xargs rm -rf {};
-	rm -rf $(INSTALL_STAMP) .mypy_cache .pytest_cache
+	rm -rf $(INSTALL_STAMP) .mypy_cache .pytest_cache dist
 
 .PHONY: lint
 lint: $(INSTALL_STAMP)
