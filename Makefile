@@ -78,4 +78,4 @@ psr-bump:
 .PHONY: psr-publish
 psr-publish: 
 	@echo "Semantic release! Publishing latest version..." 
-	$(POETRY) run semantic-release publish
+	$(POETRY) run semantic-release changelog --post-to-release-tag
