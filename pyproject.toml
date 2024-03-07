@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "manu-sdk"
-version = "0.1.1a0"
+version = "0.1.0"
 description = "SDK to automate and manage stuff for Manu"
 authors = ["Manpreet Shuann <manpreetshuann@gmail.com>"]
 readme = "README.md"
@@ -21,12 +21,12 @@ black = "^24.2.0"
 python-semantic-release = "^9.1.1"
 
 [tool.semantic_release]
-version_variable = ["pyproject.toml:version", "manu_sdk/version.py:__version__"]
+version_variables = ["manu_sdk/version.py:__version__"]
+version_toml = ["pyproject.toml:tool.poetry.version"]
 
 [[tool.poetry.source]]
 name = "PyPI"
 priority = "primary"
-
 
 [tool.poetry_bumpversion.file."manu_sdk/version.py"]
 
