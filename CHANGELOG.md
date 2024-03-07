@@ -2,6 +2,17 @@
 
 
 
+## v0.2.1 (2024-03-07)
+
+### Chore
+
+* chore: Added make target for PSR bump and publish ([`0eccc74`](https://github.com/ManpreetShuann/manu-sdk/commit/0eccc745022a85ee6c5030b0030483c65e197cf9))
+
+### Fix
+
+* fix: Typo in makefile ([`3bbc8a3`](https://github.com/ManpreetShuann/manu-sdk/commit/3bbc8a3a517856dfa7c063a6edfea71b97cc1051))
+
+
 ## v0.2.0 (2024-03-07)
 
 ### Feature
