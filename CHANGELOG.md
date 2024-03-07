@@ -2,6 +2,13 @@
 
 
 
+## v0.4.1 (2024-03-07)
+
+### Fix
+
+* fix: Typo in psr-publish ([`8f156c2`](https://github.com/ManpreetShuann/manu-sdk/commit/8f156c2acdc789ab1cc31efa6c535cf6efb67c8f))
+
+
 ## v0.4.0 (2024-03-07)
 
 ### Feature
