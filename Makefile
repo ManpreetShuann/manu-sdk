@@ -85,4 +85,4 @@ psr-changelog:
 .PHONY: psr-publish
 psr-publish: 
 	@echo "Semantic release! Updating version, changelog & Publishing to git..." 
-	$(POETRY) run semantic-release version --no-vcs-release --no-tag --no-push
+	$(POETRY) run semantic-release version
