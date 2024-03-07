@@ -2,6 +2,17 @@
 
 
 
+## v0.4.0 (2024-03-07)
+
+### Feature
+
+* feat: Updated makefile to add PSR targets ([`7576349`](https://github.com/ManpreetShuann/manu-sdk/commit/7576349ef56fe2aeea83872d7404e54d6890ad2d))
+
+### Fix
+
+* fix: Typo in psr-publish ([`21b8e37`](https://github.com/ManpreetShuann/manu-sdk/commit/21b8e37b087a3108c3228dab80a6ee3fdfd60175))
+
+
 ## v0.3.0 (2024-03-07)
 
 ### Chore
