@@ -69,3 +69,8 @@ test: $(INSTALL_STAMP)
 build: clean install lint test
 	@echo "Building Package..." 
 	$(POETRY) build --format=sdist
+
+.PHONY: psr
+psr: 
+	@echo "Semantic release..." 
+	$(POETRY) run semantic-release version
