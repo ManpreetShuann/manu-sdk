@@ -75,7 +75,7 @@ psr-bump:
 	@echo "Semantic release! Bumping version and building changelog..." 
 	$(POETRY) run semantic-release version --no-vcs-release --no-tag --no-push
 
-.PHONY: psr-publish
-psr-publish: 
-	@echo "Semantic release! Publishing latest version..." 
-	$(POETRY) run semantic-release changelog --post-to-release-tag
+.PHONY: psr-changelog
+psr-changelog:  
+	@echo "Semantic release! Updating changelog..."  
+	$(POETRY) run semantic-release changelog 

@@ -1,6 +1,13 @@
 # CHANGELOG
 
 
+## Unreleased
+
+### Chore
+
+* chore: updated psr-publish make target ([`43cfa7f`](https://github.com/ManpreetShuann/manu-sdk/commit/43cfa7f8099a182cc2f239e8a26e2cb407af34ed))
+
+
 
 ## v0.2.1 (2024-03-07)
 
