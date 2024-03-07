@@ -2,6 +2,13 @@
 
 
 
+## v0.2.0 (2024-03-07)
+
+### Feature
+
+* feat: Added make target for PSR ([`ed2f0d0`](https://github.com/ManpreetShuann/manu-sdk/commit/ed2f0d081c42837eb0eabc6f134878d7371eb786))
+
+
 ## v0.1.0 (2024-03-07)
 
 ### Feature
