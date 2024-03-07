@@ -18,10 +18,15 @@ restructuredtext-lint = "^1.4.0"
 mypy = "^1.8.0"
 isort = "^5.13.2"
 black = "^24.2.0"
+python-semantic-release = "^9.1.1"
+
+[tool.semantic_release]
+version_variable = ["pyproject.toml:version", "manu_sdk/version.py:__version__"]
 
 [[tool.poetry.source]]
 name = "PyPI"
 priority = "primary"
+
 
 [tool.poetry_bumpversion.file."manu_sdk/version.py"]
 
