@@ -70,7 +70,12 @@ build: clean install lint test
 	@echo "Building Package..." 
 	$(POETRY) build --format=sdist
 
-.PHONY: psr
-psr: 
-	@echo "Semantic release..." 
-	$(POETRY) run semantic-release version
+.PHONY: psr-bump
+psr-bump: 
+	@echo "Semantic release! Bumping version and building changelog..." 
+	$(POETRY) run semantic-release version --no-vcs-release --no-tag ----no-push
+
+.PHONY: psr-publish
+psr-publish: 
+	@echo "Semantic release! Bumping version and building changelog..." 
+	$(POETRY) run semantic-release publish
