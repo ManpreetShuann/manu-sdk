@@ -17,6 +17,8 @@ help:
 	@echo "  format               reformat code"
 	@echo "  test                 run all the tests"
 	@echo "  build                run linters, tests and build package"
+	@echo "  psr-bump             Bumps version and builds changelog locally"
+	@echo "  psr-publish          Bumps version and builds changelog and push to git"
 	@echo ""
 	@echo "Check the Makefile to know exactly what each target is doing."
 
@@ -79,3 +81,8 @@ psr-bump:
 psr-changelog:  
 	@echo "Semantic release! Updating changelog..."  
 	$(POETRY) run semantic-release changelog 
+
+.PHONY: psr-publish
+psr-bump: 
+	@echo "Semantic release! Updating version, changelog & Publishing to git..." 
+	$(POETRY) run semantic-release version --no-vcs-release --no-tag --no-push
