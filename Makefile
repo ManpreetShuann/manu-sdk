@@ -73,9 +73,9 @@ build: clean install lint test
 .PHONY: psr-bump
 psr-bump: 
 	@echo "Semantic release! Bumping version and building changelog..." 
-	$(POETRY) run semantic-release version --no-vcs-release --no-tag ----no-push
+	$(POETRY) run semantic-release version --no-vcs-release --no-tag --no-push
 
 .PHONY: psr-publish
 psr-publish: 
-	@echo "Semantic release! Bumping version and building changelog..." 
+	@echo "Semantic release! Publishing latest version..." 
 	$(POETRY) run semantic-release publish
