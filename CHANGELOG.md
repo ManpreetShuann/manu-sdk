@@ -2,6 +2,14 @@
 
 
 
+## v0.4.2 (2024-03-11)
+
+### Fix
+
+* fix: Removed latest version from README.md
+Removed since PSR can&#39;t manage to update it, maybe we can add it later? ([`d3e3dbc`](https://github.com/ManpreetShuann/manu-sdk/commit/d3e3dbcd2e4d5a1e9dea12d0258aa58588b55200))
+
+
 ## v0.4.1 (2024-03-07)
 
 ### Fix
