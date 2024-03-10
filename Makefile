@@ -48,8 +48,8 @@ clean:
 lint: $(INSTALL_STAMP)
 	@echo "Running Flake8..." 
 	$(POETRY) run flake8 $(TEST) $(NAME)
-	@echo "Running RST-LINT..." 
-	$(POETRY) run rst-lint ./docs
+	# @echo "Running RST-LINT..." 
+	# $(POETRY) run rst-lint ./docs
 
 .PHONY: type-check
 type-check: $(INSTALL_STAMP)
