@@ -2,7 +2,14 @@
 
 
 
-## v0.5.0 (2024-03-11)
+## v0.6.0 (2024-03-11)
+
+### Feature
+
+* feat: Added shield badges ([`7212adf`](https://github.com/ManpreetShuann/manu-sdk/commit/7212adf19d6fd31a28b5d80fe48167d4ca095568))
+
+
+## v0.5.0 (2024-03-10)
 
 ### Feature
 
