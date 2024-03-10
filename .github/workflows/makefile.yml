@@ -19,8 +19,14 @@ jobs:
       - name: Run clean
         run: make clean
 
+      - name: Run install-poetry
+        run: make install-poetry
+
+      - name: Install manu-sdk
+        run: make install
+
       - name: Run lint
-        run: make
+        run: make lint
 
       - name: Run psr-publish
         run: make psr-publish
