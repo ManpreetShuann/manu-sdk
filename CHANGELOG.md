@@ -2,7 +2,14 @@
 
 
 
-## v0.4.2 (2024-03-11)
+## v0.5.0 (2024-03-11)
+
+### Feature
+
+* feat: Added Latest release badge ([`7c2f627`](https://github.com/ManpreetShuann/manu-sdk/commit/7c2f627b838663062033a221fab14f7ae96c1369))
+
+
+## v0.4.2 (2024-03-10)
 
 ### Fix
 

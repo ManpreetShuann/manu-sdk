@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "manu-sdk"
-version = "0.4.2"
+version = "0.5.0"
 description = "SDK to automate and manage stuff for Manu"
 authors = ["Manpreet Shuann <manpreetshuann@gmail.com>"]
 readme = "README.md"
