@@ -2,7 +2,20 @@
 
 
 
-## v0.8.0 (2024-03-11)
+## v0.9.0 (2024-03-10)
+
+### Feature
+
+* feat: Updated github action ([`de048e6`](https://github.com/ManpreetShuann/manu-sdk/commit/de048e6b68c68cb99d8fa8e7a3ed37271fff919d))
+
+### Fix
+
+* fix: depth for cu checkout ([`3f10e78`](https://github.com/ManpreetShuann/manu-sdk/commit/3f10e78155f0e733774a2ed19308f060ee7254e4))
+
+* fix: Token for PSR ([`da1395a`](https://github.com/ManpreetShuann/manu-sdk/commit/da1395af854cc88ce900206000e59bb120657fb2))
+
+
+## v0.8.0 (2024-03-10)
 
 ### Feature
 
