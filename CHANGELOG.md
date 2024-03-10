@@ -2,7 +2,18 @@
 
 
 
-## v0.6.1 (2024-03-11)
+## v0.7.0 (2024-03-11)
+
+### Feature
+
+* feat: Added stats badges in Readme ([`01d76c0`](https://github.com/ManpreetShuann/manu-sdk/commit/01d76c0f7ef8382cd8edf68a27b11ec7cae2d934))
+
+### Unknown
+
+* Added github ci actions ([`6cec626`](https://github.com/ManpreetShuann/manu-sdk/commit/6cec6268a6100572b132ce3d90152d2a242038a6))
+
+
+## v0.6.1 (2024-03-10)
 
 ### Fix
 
