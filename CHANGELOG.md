@@ -2,7 +2,24 @@
 
 
 
-## v0.7.0 (2024-03-11)
+## v0.8.0 (2024-03-11)
+
+### Feature
+
+* feat: Update python version and pytest n pyproject.toml ([`0728093`](https://github.com/ManpreetShuann/manu-sdk/commit/07280933f7418c8fb89ef495e3b4288a07913e18))
+
+* feat: Updated Gihub actions CI ([`cba05d9`](https://github.com/ManpreetShuann/manu-sdk/commit/cba05d9da88644763b434fe743d0a10c6888ef58))
+
+### Fix
+
+* fix: Testing GH TOken ([`53dc97d`](https://github.com/ManpreetShuann/manu-sdk/commit/53dc97dcf88344273a2b7e211b99596a00af5978))
+
+* fix: Testing GH TOken ([`79da16a`](https://github.com/ManpreetShuann/manu-sdk/commit/79da16a914d74e401aa30e413f2c56fd2d5c7eb2))
+
+* fix: Remove rst-lint as we don&#39;t have docs yet ([`7f96cfc`](https://github.com/ManpreetShuann/manu-sdk/commit/7f96cfc9ad014d6adacb7964ed6ecb619ddc9669))
+
+
+## v0.7.0 (2024-03-10)
 
 ### Feature
 
