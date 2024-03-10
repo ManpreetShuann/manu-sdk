@@ -23,6 +23,7 @@ python-semantic-release = "^9.1.1"
 [tool.semantic_release]
 version_variables = ["manu_sdk/version.py:__version__"]
 version_toml = ["pyproject.toml:tool.poetry.version"]
+token = { env = "secrets.GITHUB_TOKEN" }
 
 [[tool.poetry.source]]
 name = "PyPI"

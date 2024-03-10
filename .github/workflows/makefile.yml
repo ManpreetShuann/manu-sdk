@@ -30,6 +30,4 @@ jobs:
         run: make lint
 
       - name: Run psr-publish
-        uses: make psr-publish
-        with:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: make psr-publish
