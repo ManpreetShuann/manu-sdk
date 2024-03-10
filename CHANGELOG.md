@@ -2,7 +2,14 @@
 
 
 
-## v0.6.0 (2024-03-11)
+## v0.6.1 (2024-03-11)
+
+### Fix
+
+* fix: Typo in  shield badges ([`2924b71`](https://github.com/ManpreetShuann/manu-sdk/commit/2924b71e18b199dc42316dcd0bca8cf358523dba))
+
+
+## v0.6.0 (2024-03-10)
 
 ### Feature
 
