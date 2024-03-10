@@ -1,0 +1,27 @@
+name: Makefile CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install dependencies
+      run: make
+
+    - name: Run clean
+      run: make clean
+
+    - name: Run lint
+      run: make 
+
+    - name: Run psr-publish
+      run: make psr-publish
