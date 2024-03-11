@@ -2,6 +2,13 @@
 
 
 
+## v0.9.4 (2024-03-11)
+
+### Fix
+
+* fix: Updated shield badge for release build ([`2273b11`](https://github.com/ManpreetShuann/manu-sdk/commit/2273b1143f65abcf3c7e4e82f801febaa398e1d4))
+
+
 ## v0.9.3 (2024-03-11)
 
 ### Fix
