@@ -23,6 +23,7 @@ python-semantic-release = "^9.1.1"
 [tool.semantic_release]
 version_variables = ["manu_sdk/version.py:__version__"]
 version_toml = ["pyproject.toml:tool.poetry.version"]
+exclude_commit_patterns = ["Merge pull request"]
 
 [[tool.poetry.source]]
 name = "PyPI"
