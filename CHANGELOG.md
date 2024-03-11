@@ -2,6 +2,19 @@
 
 
 
+## v0.9.2 (2024-03-11)
+
+### Fix
+
+* fix: Don&#39;t include pull request commits ([`70fb62c`](https://github.com/ManpreetShuann/manu-sdk/commit/70fb62c9567ee18f03536fe90049396bda95998c))
+
+### Unknown
+
+* Merge pull request #2 from ManpreetShuann/develop
+
+fix: Don&#39;t include pull request commits ([`ae6d256`](https://github.com/ManpreetShuann/manu-sdk/commit/ae6d25600124c7b3f4900cf4592f0b6171e8ee7c))
+
+
 ## v0.9.1 (2024-03-11)
 
 ### Fix
