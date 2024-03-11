@@ -2,17 +2,18 @@
 
 
 
+## v0.9.3 (2024-03-11)
+
+### Fix
+
+* fix: Don&#39;t include pull request commits ([`2eac39b`](https://github.com/ManpreetShuann/manu-sdk/commit/2eac39bd56cde7628f1f831ff334aaa87bf7b1cf))
+
+
 ## v0.9.2 (2024-03-11)
 
 ### Fix
 
 * fix: Don&#39;t include pull request commits ([`70fb62c`](https://github.com/ManpreetShuann/manu-sdk/commit/70fb62c9567ee18f03536fe90049396bda95998c))
-
-### Unknown
-
-* Merge pull request #2 from ManpreetShuann/develop
-
-fix: Don&#39;t include pull request commits ([`ae6d256`](https://github.com/ManpreetShuann/manu-sdk/commit/ae6d25600124c7b3f4900cf4592f0b6171e8ee7c))
 
 
 ## v0.9.1 (2024-03-11)
@@ -20,12 +21,6 @@ fix: Don&#39;t include pull request commits ([`ae6d256`](https://github.com/Manp
 ### Fix
 
 * fix: changed the name of github action workflow ([`87f3df4`](https://github.com/ManpreetShuann/manu-sdk/commit/87f3df43886922d0596fadeabbc57a8fc4e5a0c8))
-
-### Unknown
-
-* Merge pull request #1 from ManpreetShuann/develop
-
-fix: changed the name of github action workflow ([`50055fc`](https://github.com/ManpreetShuann/manu-sdk/commit/50055fcf63b0231a942ee0926993a22d6270fcb2))
 
 
 ## v0.9.0 (2024-03-10)
