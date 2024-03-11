@@ -2,6 +2,19 @@
 
 
 
+## v0.9.1 (2024-03-11)
+
+### Fix
+
+* fix: changed the name of github action workflow ([`87f3df4`](https://github.com/ManpreetShuann/manu-sdk/commit/87f3df43886922d0596fadeabbc57a8fc4e5a0c8))
+
+### Unknown
+
+* Merge pull request #1 from ManpreetShuann/develop
+
+fix: changed the name of github action workflow ([`50055fc`](https://github.com/ManpreetShuann/manu-sdk/commit/50055fcf63b0231a942ee0926993a22d6270fcb2))
+
+
 ## v0.9.0 (2024-03-10)
 
 ### Feature
