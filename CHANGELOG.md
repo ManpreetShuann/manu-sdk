@@ -2,6 +2,19 @@
 
 
 
+## v0.10.0 (2024-03-19)
+
+### Feature
+
+* feat: Add sum fucntion ([`67f7702`](https://github.com/ManpreetShuann/manu-sdk/commit/67f7702a6b07d75dbc2702595a4e03e211e5cdfe))
+
+### Fix
+
+* fix: linting ([`3ed2b26`](https://github.com/ManpreetShuann/manu-sdk/commit/3ed2b268dfa475bfd6db37a2f36fe48b83f7ff2c))
+
+* fix: linting ([`aaf3e00`](https://github.com/ManpreetShuann/manu-sdk/commit/aaf3e00a1cb50c466cb737e893eca4d1ef522062))
+
+
 ## v0.9.4 (2024-03-11)
 
 ### Fix
